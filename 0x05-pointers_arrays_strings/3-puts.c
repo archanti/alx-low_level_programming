@@ -6,11 +6,21 @@
  */
 
 void _puts(char *str)
-{
-     	char *str;
 
-	str = "tHIS IS MY TEST STRING";
-      	_puts(str);
-	return (0);
+{
+
+		int i;
+
+
+
+			for (i = 0; str[i] != '\0'; i++)
+
+					{
+
+								_putchar(str[i]);
+
+									}
+
+				_putchar('\n');
 
 }
