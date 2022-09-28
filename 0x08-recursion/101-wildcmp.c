@@ -92,7 +92,7 @@ int bandersnatch(char *s1, char *s2)
  *    Return: the address of the character after the *
  */
 char *move(char *s2)
-
+{
 	/**
 	 * if the current char is a *
 	 * increment s2 by 1
@@ -103,5 +103,5 @@ char *move(char *s2)
 	return (move(s2 + 1));
 	else
 	return (s2);
-	}
+}
 
